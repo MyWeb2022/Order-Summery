@@ -1,0 +1,64 @@
+body{
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
+  background-color: blue;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  margin: 50px auto;
+  border-radius:10px;
+  box-shadow: 0 5px 5px 1px #7F8487;
+}
+
+.title-image {
+  width: 100%;
+  border-radius:10px 10px 0 0;
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px 60px 30px 60px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #73777B;
+}
+
+.inner-card{
+  background-color: blue;
+  background-color: hsl(225, 100%, 98%);
+  margin: 30px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 5px 1px #7F8487;
+}
+.button:hover {
+  background-color: #242F9B;
+}
+.link {
+  color: blue;
+  text-decoration: none;
+  margin-top: 90px;
+}
